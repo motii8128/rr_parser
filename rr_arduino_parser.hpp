@@ -40,7 +40,7 @@ namespace rustic_rover
         int four_com = without_3.indexOf(',');
 
         String str_4 = without_3.substring(0, four_com);
-        String str_5 = without_2.substring(four_com+1);
+        String str_5 = without_3.substring(four_com+1);
 
         int v1 = str_1.toInt();
         int v2 = str_2.toInt();
