@@ -17,7 +17,7 @@ namespace rustic_rover
 
     RusticRover from_str(String read)
     {
-        int start_index = read.indexOf('s');
+        int start_index = 0;
         int end_index = read.indexOf('e');
         String data = read.substring(start_index+1, end_index);
 
